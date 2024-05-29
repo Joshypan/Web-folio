@@ -4,16 +4,22 @@ Welcome to Joshua's Webfolio! This project showcases my programming skills, work
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Routes](#routes)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Joshua's Webfolio](#joshuas-webfolio)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Features](#features)
+  - [Technologies Used](#technologies-used)
+  - [Setup](#setup)
+    - [Prerequisites](#prerequisites)
+    - [Frontend Setup](#frontend-setup)
+    - [Backend Setup](#backend-setup)
+  - [Usage](#usage)
+  - [Routes](#routes)
+    - [Frontend Routes](#frontend-routes)
+    - [Backend Endpoints](#backend-endpoints)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Contact](#contact)
 
 ## Introduction
 
