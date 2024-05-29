@@ -1,0 +1,37 @@
+/* Override Bootstrap primary color */
+.btn-primary {
+  background-color: #6B8E23; /* Olive green */
+  border-color: #556B2F;
+}
+
+.bg-dark {
+  background-color: #2F4F4F !important; /* Dark slate gray */
+}
+
+.text-white {
+  color: #F5F5DC !important; /* Beige */
+}
+
+/* Custom styles for components */
+.App-header {
+  background-color: #2F4F4F;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #F5F5F5; /* White smoke */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item {
+  background-color: #FAFAD2; /* Light goldenrod yellow */
+}
+
+footer {
+  background-color: #2F4F4F;
+  color: #F5F5DC;
+  padding: 10px;
+}
