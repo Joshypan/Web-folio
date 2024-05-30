@@ -89,7 +89,8 @@ This web application is built using React for the frontend and Flask for the bac
 
 3. Install dependencies:
     ```sh
-    pip install -r requirements.txt
+    pip install flask
+    pip install flask-cors
     ```
 
 4. Start the backend server:
