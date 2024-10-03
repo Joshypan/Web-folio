@@ -14,7 +14,7 @@ function App() {
         <Router>
             <div className="App">
                 <header className="bg-dark text-white text-center py-5 mb-4">
-                    <h1>Joshua's Webfolio</h1>
+                    <h1>Joshua Panchana's Webfolio</h1>
                     <nav>
                         <Link className="btn btn-link text-white" to="/">Home</Link>
                         <Link className="btn btn-link text-white" to="/projects">Projects</Link>
@@ -25,14 +25,16 @@ function App() {
                     </nav>
                 </header>
                 <main className="container">
-                    <Routes>
-                        <Route path="/" element={<Home />} />
-                        <Route path="/projects" element={<Projects />} />
-                        <Route path="/about" element={<About />} />
-                        <Route path="/skills" element={<Skills />} />
-                        <Route path="/work-experience" element={<WorkExperience />} />
-                        <Route path="/contact" element={<Contact />} />
-                    </Routes>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/home" element={<Home />} />
+                    <Route path="/projects" element={<Projects />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/skills" element={<Skills />} />
+                    <Route path="/work-experience" element={<WorkExperience />} />
+                    <Route path="/contact" element={<Contact />} />
+                    <Route path="*" element={<Home />} />
+                </Routes>
                 </main>
                 <footer className="text-center py-4 bg-dark text-white mt-5">
                     <p>&copy; 2024 Joshua Panchana Cedeño</p>
