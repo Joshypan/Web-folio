@@ -8,7 +8,7 @@ const Home = () => {
       {/* Hero Section */}
       <div className="hero-section text-center">
         <img
-          src={`${process.env.PUBLIC_URL}/Josh_shpe.png`}
+          src={`${process.env.PUBLIC_URL}/josh_shpe.png`}
           alt="Joshua Panchana"
           className="profile-photo"
         />
