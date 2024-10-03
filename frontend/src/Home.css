@@ -1,0 +1,42 @@
+.hero-section {
+    margin-bottom: 2rem;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+    color: gray;
+  }
+  
+  .cta-buttons .btn {
+    margin-top: 1rem;
+  }
+  
+  .skills-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills-section li {
+    margin: 0.5rem 0;
+  }
+  
+  .experience-section {
+    margin-bottom: 3rem;
+  }
+  
+  .photo-booth-gallery img {
+    width: 150px;
+    margin: 0.5rem;
+    border-radius: 10px;
+  }
