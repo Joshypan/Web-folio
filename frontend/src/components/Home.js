@@ -54,7 +54,7 @@ const Home = () => {
             <div className="skills-section my-5">
             <h2 className="text-center">Skills Summary</h2>
             <ul className="skills-list">
-                <li><strong>Languages:</strong> C++, JavaScript, Python, SQL, React.js, HTML, CSS</li>
+                <li><strong>Programming Languages:</strong> C++, JavaScript, Python, SQL, React.js, HTML, CSS</li>
                 <li><strong>Tools & Platforms:</strong> Git, GitHub, Azure DevOps, Nintex Cloud Automation, SharePoint</li>
                 <li><strong>Software:</strong> Visual Studio Code, MySQL, MAMP/WAMP</li>
                 <li><strong>Languages:</strong> Fluent in Spanish</li>
@@ -71,24 +71,24 @@ const Home = () => {
             <Link to="/work-experience" className="btn btn-primary mt-2">View Full Experience</Link>
         </div>
 
-        <div className="leadership-section my-5">
-            <h2 className="text-center">Organizations & Leadership</h2>
-            <div className="leadership-item">
-                <h3>President | Society of Hispanic Professional Engineers (SHPE)</h3>
-                <ul>
-                <li>Led discussions with companies to create partnerships and professional opportunities for members.</li>
-                <li>Organized workshops on resume building, networking, and career development for members.</li>
-                <li>Invited STEM professionals to share career insights with the SHPE community.</li>
-                </ul>
+        <div className="leadership-summary my-5">
+            <h2>Leadership & Involvement</h2>
+            <ul>
+                <li>
+                    <strong>Society of Hispanic Professional Engineers (SHPE):</strong> Led outreach and partnerships as Vice President, 
+                    fostering career development opportunities for Hispanic students in STEM.
+                </li>
+                <li>
+                    <strong>UA Latinos:</strong> Developed a vibrant community on campus, expanding membership and earning 
+                    a LIFE Award for Diversity and Inclusion. Currently serving as Treasurer, managing funds for cultural events.
+                </li>
+                <li>
+                    <strong>Dean’s Team Member:</strong> Represented the College of Engineering at University of Akron, supporting 
+                    outreach and guiding prospective students.
+                </li>
+            </ul>
+            <Link to="/work-experience" className="btn btn-primary mt-3">View My Full Experience</Link>
             </div>
-            <div className="leadership-item">
-                <h3>Treasurer | UA Latinos</h3>
-                <ul>
-                <li>Managed the budget to fund cultural events, providing entertainment and supplies for students.</li>
-                <li>Helped organize and run events to celebrate Latino heritage and culture at the University of Akron.</li>
-                </ul>
-            </div>
-        </div>
 
         <div className="personal-section my-5">
             <h2 className="text-center">A Bit About Me</h2>
