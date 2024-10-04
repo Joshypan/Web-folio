@@ -44,24 +44,19 @@ const Home = () => {
             </p>
         </div>
 
-        <div className="education-section my-5">
+        <div className="education-section my-5 text-center">
             <h2 className="text-center">Education</h2>
             <p><strong>The University of Akron</strong> | Akron, OH</p>
-            <p>Bachelor of Computer Science | GPA: 3.5/4.0 | Expected Graduation: May 2025</p>
-            </div>
-
-            {/* Skills Section */}
-            <div className="skills-section my-5">
-            <h2 className="text-center">Skills Summary</h2>
-            <ul className="skills-list">
-                <li><strong>Programming Languages:</strong> C++, JavaScript, Python, SQL, React.js, HTML, CSS</li>
-                <li><strong>Tools & Platforms:</strong> Git, GitHub, Azure DevOps, Nintex Cloud Automation, SharePoint</li>
-                <li><strong>Software:</strong> Visual Studio Code, MySQL, MAMP/WAMP</li>
-                <li><strong>Languages:</strong> Fluent in Spanish</li>
-            </ul>
+            <p>Bachelor of Computer Science | GPA: 3.5/4.0 | Expected Graduation: May 2025</p>        
         </div>
 
-        <div className="experience-summary my-4">
+        <div className="skills-section my-5 text-center">
+            <h2>Technical Expertise</h2>
+            <p>Proficient in Python, C++, and JavaScript, with hands-on experience in web development, cloud platforms, and customer support.</p>
+            <Link to="/skills" className="btn btn-secondary mt-2">Explore Full Skill Set</Link>
+        </div>
+
+        <div className="experience-summary my-4 text-center">
             <h2>Professional Summary</h2>
             <p>
                 With experience in software development and technical support, I have worked with leading companies like Goodyear and Apple. 
@@ -71,26 +66,24 @@ const Home = () => {
             <Link to="/work-experience" className="btn btn-primary mt-2">View Full Experience</Link>
         </div>
 
-        <div className="leadership-summary my-5">
+        <div className="leadership-summary my-5 text-center">
             <h2>Leadership & Involvement</h2>
-            <ul>
-                <li>
-                    <strong>Society of Hispanic Professional Engineers (SHPE):</strong> Led outreach and partnerships as Vice President, 
-                    fostering career development opportunities for Hispanic students in STEM.
-                </li>
-                <li>
-                    <strong>UA Latinos:</strong> Developed a vibrant community on campus, expanding membership and earning 
-                    a LIFE Award for Diversity and Inclusion. Currently serving as Treasurer, managing funds for cultural events.
-                </li>
-                <li>
-                    <strong>Dean’s Team Member:</strong> Represented the College of Engineering at University of Akron, supporting 
-                    outreach and guiding prospective students.
-                </li>
-            </ul>
+            <li>
+                <strong>Society of Hispanic Professional Engineers (SHPE):</strong> Led outreach and partnerships as Vice President, 
+                fostering career development opportunities for Hispanic students in STEM.
+            </li>
+            <li>
+                <strong>UA Latinos:</strong> Developed a vibrant community on campus, expanding membership and earning 
+                a LIFE Award for Diversity and Inclusion. Currently serving as Treasurer, managing funds for cultural events.
+            </li>
+            <li>
+                <strong>Dean’s Team Member:</strong> Represented the College of Engineering at University of Akron, supporting 
+                outreach and guiding prospective students.
+            </li>
             <Link to="/work-experience" className="btn btn-primary mt-3">View My Full Experience</Link>
             </div>
 
-        <div className="personal-section my-5">
+        <div className="personal-section my-5 text-center">
             <h2 className="text-center">A Bit About Me</h2>
             <p className="text-center">
                 Outside of coding, I’m passionate about fitness, exploring new cuisines, and traveling. I’ve visited Puerto Rico, Mexico, Ecuador, NYC, Miami, Salt Lake City, Utah, and Chicago. I enjoy discovering new places and challenging myself with new experiences.
