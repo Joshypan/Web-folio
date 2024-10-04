@@ -1,0 +1,41 @@
+.work-experience-page {
+    padding: 20px;
+}
+
+.company-logo {
+    width: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.goodyear {
+    border-left: 4px solid #FFD700; /* Goodyear - Gold */
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.apple {
+    border-left: 4px solid #A2AAAD; /* Apple - Grey */
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.experience-item h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.experience-item p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.experience-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.experience-item ul li {
+    padding: 5px 0;
+    font-size: 1em;
+}
