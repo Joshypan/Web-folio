@@ -1,7 +1,6 @@
 # Ignore virtual environment
 venv/
 
-# Ignore Python cache and system files
 __pycache__/
 *.py[cod]
 *.sqlite3
@@ -15,6 +14,5 @@ __pycache__/
 *.swp
 *.swo
 
-# Ignore VSCode and other IDE-specific folders
 .vscode/
 .idea/
