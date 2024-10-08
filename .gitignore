@@ -1,18 +1,30 @@
-# Ignore virtual environment
-venv/
+# Node.js and Frontend Dependencies
+node_modules/
+.pnp/
+.pnp.js
 
+# Frontend Production and Testing
+/frontend/build
+/coverage
+
+# Backend Python Virtual Environment
+backend/venv/
+
+# Python Cache Files
 __pycache__/
 *.py[cod]
-*.sqlite3
 
-# Ignore macOS system files
+# Environment and Log Files
 .DS_Store
-
-# Ignore other temporary files and logs
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 *.log
-*.tmp
-*.swp
-*.swo
 
-.vscode/
+# Misc
 .idea/
+.vscode/
