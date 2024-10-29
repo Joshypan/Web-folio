@@ -1,64 +1,79 @@
 import React, { useState } from 'react';
-import axios from 'axios';
+import emailjs from 'emailjs-com';
+import '../Contact.css';
 
 const Contact = () => {
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [message, setMessage] = useState('');
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
+  const [statusMessage, setStatusMessage] = useState('');
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        axios.post('http://127.0.0.1:5000/api/contact', {
-            name,
-            email,
-            message
-        }).then(response => {
-            alert('Message sent successfully');
-            setName('');
-            setEmail('');
-            setMessage('');
-        }).catch(error => {
-            console.error('There was an error sending the message!', error);
-        });
-    };
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
 
-    return (
-        <div className="my-5">
-            <h2 className="mb-4">Contact Me</h2>
-            <form onSubmit={handleSubmit}>
-                <div className="form-group">
-                    <label>Name:</label>
-                    <input 
-                        type="text" 
-                        className="form-control" 
-                        value={name} 
-                        onChange={(e) => setName(e.target.value)} 
-                        required 
-                    />
-                </div>
-                <div className="form-group">
-                    <label>Email:</label>
-                    <input 
-                        type="email" 
-                        className="form-control" 
-                        value={email} 
-                        onChange={(e) => setEmail(e.target.value)} 
-                        required 
-                    />
-                </div>
-                <div className="form-group">
-                    <label>Message:</label>
-                    <textarea 
-                        className="form-control" 
-                        value={message} 
-                        onChange={(e) => setMessage(e.target.value)} 
-                        required 
-                    />
-                </div>
-                <button type="submit" className="btn btn-primary mt-3">Send</button>
-            </form>
-        </div>
-    );
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    emailjs
+      .send(
+        'service_a0jaka1',     // Service ID
+        'template_edj96z2',    // Template ID
+        formData,
+        'VaFA_4ndrJFlPOQ8j'         // User ID
+      )
+      .then(
+        (result) => {
+          setStatusMessage('Message sent successfully!');
+          setFormData({ name: '', email: '', message: '' });
+        },
+        (error) => {
+          setStatusMessage('Failed to send message. Please try again.');
+          console.error(error);
+        }
+      );
+  };
+
+  return (
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form onSubmit={handleSubmit}>
+        <label>
+          Name:
+          <input
+            type="text"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+            required
+          />
+        </label>
+        <label>
+          Email:
+          <input
+            type="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            required
+          />
+        </label>
+        <label>
+          Message:
+          <textarea
+            name="message"
+            value={formData.message}
+            onChange={handleChange}
+            required
+          />
+        </label>
+        <button type="submit">Send</button>
+      </form>
+      {statusMessage && <p>{statusMessage}</p>}
+    </section>
+  );
 };
 
 export default Contact;

@@ -8,15 +8,13 @@ Welcome to Joshua's Webfolio! This project showcases my programming skills, work
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Features](#features)
-  - [Technologies Used](#technologies-used)
+  - [Tech Stack](#tech-stack)
   - [Setup](#setup)
     - [Prerequisites](#prerequisites)
     - [Frontend Setup](#frontend-setup)
-    - [Backend Setup](#backend-setup)
   - [Usage](#usage)
   - [Routes](#routes)
     - [Frontend Routes](#frontend-routes)
-    - [Backend Endpoints](#backend-endpoints)
   - [Contributing](#contributing)
   - [License](#license)
   - [Contact](#contact)
@@ -34,13 +32,11 @@ This web application is built using React for the frontend and Flask for the bac
 - Responsive design with Bootstrap
 - Multi-page navigation using React Router
 
-## Technologies Used
+## Tech Stack
 
-- React
-- React Router
-- Bootstrap
-- Flask
-- Axios
+- **Frontend**: React, HTML, CSS
+- **Email Service**: Email.js
+- **Deployment**: GitHub Pages
 
 ## Setup
 
@@ -48,7 +44,6 @@ This web application is built using React for the frontend and Flask for the bac
 
 - Node.js and npm
 - Python 3.x
-- Flask
 - Git (optional, for version control)
 
 ### Frontend Setup
@@ -73,34 +68,10 @@ This web application is built using React for the frontend and Flask for the bac
     ```sh
     npm start
     ```
-
-### Backend Setup
-
-1. Navigate to the backend directory:
-    ```sh
-    cd ../backend
-    ```
-
-2. Create and activate a virtual environment:
-    ```sh
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
-
-3. Install dependencies:
-    ```sh
-    pip install flask
-    pip install flask-cors
-    ```
-
-4. Start the backend server:
-    ```sh
-    python app.py
-    ```
-
+    
 ## Usage
 
-Once both the frontend and backend servers are running, open your web browser and navigate to `http://localhost:3000` to view the application.
+Open your web browser and navigate to `http://localhost:3000` to view the application.
 
 ## Routes
 
@@ -112,11 +83,6 @@ Once both the frontend and backend servers are running, open your web browser an
 - `/skills` - Skills page
 - `/work-experience` - Work Experience page
 - `/contact` - Contact page
-
-### Backend Endpoints
-
-- `GET /api/projects` - Fetch projects data
-- `POST /api/contact` - Submit a contact form
 
 ## Contributing
 
@@ -132,4 +98,3 @@ If you have any questions or suggestions, feel free to reach out:
 
 - Name: Joshua Panchana Cedeño
 - Email: jp286@uakron.edu
-
