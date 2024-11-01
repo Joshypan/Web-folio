@@ -1,6 +1,6 @@
 # Joshua's Webfolio
 
-Welcome to Joshua's Webfolio! This project showcases my programming skills, work experience, and leadership experience.
+Welcome to Joshua's Webfolio! This project showcases my programming skills, work experience, and leadership experience. Visit the site: https://joshypan.github.io/Web-folio/
 
 ## Table of Contents
 

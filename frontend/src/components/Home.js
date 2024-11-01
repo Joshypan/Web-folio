@@ -16,14 +16,14 @@ const Home = () => {
             <p className="hero-subtitle">
                 Aspiring Software Developer | Graduating May 2025 | Willing to Travel & Relocate
             </p>
-            <p className="hero-text">
+            <p className="hero-text text-center">
                 Hi, I'm Joshua Panchana, a passionate software developer with experience in full-stack development, DevOps, and automation. 
                 I'm currently pursuing a Bachelor of Computer Science at the University of Akron, with an expected graduation in May 2025. 
                 I’m seeking full-time opportunities in software development where I can apply my skills and continue growing professionally.
             </p>
             <div className="cta-buttons">
                 <a
-                href="https://drive.google.com/file/d/1gLsfp3BvFbUyjt0XfkoAyjfJeed79kxe/view?usp=sharing"
+                href="https://drive.google.com/file/d/1IWl__bhRUe07E0Xi78Q3SCSaVIPR2Wfs/view?usp=sharing"
                 className="btn btn-primary mx-2"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -35,7 +35,7 @@ const Home = () => {
             </div>
         </div>
 
-        <div className="career-objective-section my-5">
+        <div className="career-objective-section my-5 text-center">
             <h2 className="text-center">Career Objective</h2>
             <p>
                 I am looking for a full-time software development position starting May 2025, where I can apply my knowledge in software engineering, 
@@ -82,13 +82,6 @@ const Home = () => {
             </li>
             <Link to="/work-experience" className="btn btn-primary mt-3">View My Full Experience</Link>
             </div>
-
-        <div className="personal-section my-5 text-center">
-            <h2 className="text-center">A Bit About Me</h2>
-            <p className="text-center">
-                Outside of coding, I’m passionate about fitness, exploring new cuisines, and traveling. I’ve visited Puerto Rico, Mexico, Ecuador, NYC, Miami, Salt Lake City, Utah, and Chicago. I enjoy discovering new places and challenging myself with new experiences.
-            </p>
-        </div>
 
         {/* Photo Booth */}
         <div className="photo-booth-section my-5 text-center">

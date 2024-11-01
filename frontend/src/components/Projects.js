@@ -6,6 +6,20 @@ const Projects = () => {
             <h2 className="text-center">Projects</h2>
 
             <div className="project-item my-4">
+                <h3>Personal Webfolio</h3>
+                <p>
+                    A professional portfolio website built with React and a Flask backend, showcasing my development projects, skills, and experience.
+                </p>
+                <ul>
+                    <li><strong>Technologies:</strong> React, Flask, Bootstrap, HTML, CSS, JavaScript</li>
+                    <li><strong>Features:</strong> Multi-page navigation, responsive design, and integration with a Flask API for dynamic content delivery.</li>
+                </ul>
+                <div className="project-links">
+                    <a href="https://github.com/Joshypan/Web-folio" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">GitHub Repo</a>
+                </div>
+            </div>
+            
+            <div className="project-item my-4">
                 <h3>Form Creation Engine (FCE)</h3>
                 <p>
                     A web application for creating surveys from CSV or text files, allowing users to manually create surveys and save them under user accounts.
@@ -29,21 +43,7 @@ const Projects = () => {
                     <li><strong>Features:</strong> Wireless control, real-time LED status updates, and a user-friendly interface.</li>
                 </ul>
                 <div className="project-links">
-                    <a href="https://github.com/yourusername/LEDToggle" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">GitHub Repo</a>
-                </div>
-            </div>
-
-            <div className="project-item my-4">
-                <h3>Personal Webfolio</h3>
-                <p>
-                    A professional portfolio website built with React and a Flask backend, showcasing my development projects, skills, and experience.
-                </p>
-                <ul>
-                    <li><strong>Technologies:</strong> React, Flask, Bootstrap, HTML, CSS, JavaScript</li>
-                    <li><strong>Features:</strong> Multi-page navigation, responsive design, and integration with a Flask API for dynamic content delivery.</li>
-                </ul>
-                <div className="project-links">
-                    <a href="https://github.com/Joshypan/Web-folio" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">GitHub Repo</a>
+                    <a href="https://github.com/Joshypan/LED-Toggle-Project" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">GitHub Repo</a>
                 </div>
             </div>
         </div>
