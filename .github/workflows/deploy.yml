@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Set up Node.js
@@ -18,16 +18,18 @@ jobs:
         with:
           node-version: 18
 
-      - name: Install Dependencies
+      - name: Install dependencies
         run: npm install
+        working-directory: frontend
 
-      - name: Build Project
+      - name: Build project
         run: npm run build
+        working-directory: frontend
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: build
+          folder: frontend/build
           clean: true
           token: ${{ secrets.GITHUB_TOKEN }}
