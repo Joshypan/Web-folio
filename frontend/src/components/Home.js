@@ -18,7 +18,7 @@ const Home = () => {
           className="rounded-circle shadow-lg mb-3"
           style={{ width: '180px' }}
         />
-        <h1 className="display-4 fw-bold">Joshua Panchana</h1>
+        <h1 className="display-4 fw-bold">Joshua Panchana Cedeño</h1>
         <p className="lead text-muted">Aspiring Software/Web Developer | University of Akron Alumnus</p>
         <p className="fs-5 mx-auto" style={{ maxWidth: '700px' }}>
           Passionate about building secure and user-friendly software. With a background in full-stack development,

@@ -1,42 +1,86 @@
-.hero-section {
-    margin-bottom: 2rem;
-  }
-  
-  .profile-photo {
-    width: 150px;
-    border-radius: 50%;
-    margin-bottom: 1rem;
-  }
-  
-  .hero-title {
+.home-page {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to bottom, #fdfbfb, #ebedee);
+  padding-bottom: 3rem;
+}
+
+.hero-section img {
+  border: 4px solid #dee2e6;
+  transition: transform 0.3s ease;
+}
+
+.hero-section img:hover {
+  transform: scale(1.05);
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+  color: #212529;
+}
+
+.hero-section p.lead {
+  color: #6c757d;
+}
+
+.hero-section .fs-5 {
+  color: #495057;
+}
+
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+h2.fw-bold {
+  color: #343a40;
+  font-size: 2rem;
+}
+
+.photo-booth-section img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.photo-booth-section img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.list-unstyled li {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.education-section p,
+.experience-summary p,
+.career-objective-section p {
+  font-size: 1.1rem;
+  color: #495057;
+}
+
+@media (max-width: 768px) {
+  .hero-section h1 {
     font-size: 2.5rem;
-    font-weight: bold;
   }
-  
-  .hero-subtitle {
-    font-size: 1.2rem;
-    color: gray;
+
+  .hero-section .fs-5 {
+    font-size: 1rem;
   }
-  
-  .cta-buttons .btn {
-    margin-top: 1rem;
+
+  .photo-booth-section img {
+    width: 120px;
+    height: 120px;
   }
-  
-  .skills-section ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .skills-section li {
-    margin: 0.5rem 0;
-  }
-  
-  .experience-section {
-    margin-bottom: 3rem;
-  }
-  
-  .photo-booth-gallery img {
-    width: 150px;
-    margin: 0.5rem;
-    border-radius: 10px;
-  }
+}
