@@ -26,15 +26,6 @@ body {
   background-color: #2F4F4F;
 }
 
-.container {
-  max-width: 800px;
-  margin: auto;
-  padding: 20px;
-  background-color: #F5F5F5; /* White smoke */
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
 .list-group-item {
   background-color: #FAFAD2; /* Light goldenrod yellow */
 }
