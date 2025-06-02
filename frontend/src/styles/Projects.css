@@ -85,12 +85,6 @@ nav .btn-link:hover::after {
     transform: scaleX(1);
 }
 
-.btn:focus,
-.btn-link:focus {
-    outline: 2px dashed #1e90ff;
-    outline-offset: 2px;
-}
-
 /* Hero and Photo Booth Styles */
 .hero-section img {
     border: 4px solid #dee2e6;
