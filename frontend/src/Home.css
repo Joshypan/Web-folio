@@ -1,42 +1,70 @@
 .hero-section {
-    margin-bottom: 2rem;
-  }
-  
-  .profile-photo {
-    width: 150px;
-    border-radius: 50%;
-    margin-bottom: 1rem;
-  }
-  
-  .hero-title {
-    font-size: 2.5rem;
-    font-weight: bold;
-  }
-  
-  .hero-subtitle {
-    font-size: 1.2rem;
-    color: gray;
-  }
-  
-  .cta-buttons .btn {
-    margin-top: 1rem;
-  }
-  
-  .skills-section ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .skills-section li {
-    margin: 0.5rem 0;
-  }
-  
-  .experience-section {
-    margin-bottom: 3rem;
-  }
-  
-  .photo-booth-gallery img {
-    width: 150px;
-    margin: 0.5rem;
-    border-radius: 10px;
-  }
+  margin-bottom: 2rem;
+}
+
+.profile-photo {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: gray;
+}
+
+.skills-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-section li {
+  margin: 0.5rem 0;
+}
+
+.experience-section {
+  margin-bottom: 3rem;
+}
+
+.photo-booth-gallery img {
+  width: 150px;
+  margin: 0.5rem;
+  border-radius: 10px;
+}
+
+.cta-buttons .btn {
+  transition: all 0.3s ease;
+}
+
+.cta-buttons .btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.photo-booth-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.photo-booth-gallery img {
+  width: 140px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.photo-booth-gallery img:hover {
+  transform: scale(1.05);
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
