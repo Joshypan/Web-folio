@@ -14,12 +14,13 @@ const Home = () => {
             />
             <h1 className="hero-title">Joshua Panchana</h1>
             <p className="hero-subtitle">
-                Aspiring Software Developer | Graduating May 2025 | Willing to Travel & Relocate
+                Aspiring Software/Web Developer | The University of Akron Alumnus
             </p>
             <p className="hero-text text-center">
                 Hi, I'm Joshua Panchana, a passionate software developer with experience in full-stack development, DevOps, and automation. 
-                I'm currently pursuing a Bachelor of Computer Science at the University of Akron, with an expected graduation in May 2025. 
-                I’m seeking full-time opportunities in software development where I can apply my skills and continue growing professionally.
+                I recently earned my Bachelor's degree in Computer Science from the University of Akron in May 2025. I'm currently seeking 
+                full-time opportunities in software development where I can apply my skills, contribute to impactful projects, and continue 
+                growing professionally.
             </p>
             <div className="cta-buttons">
                 <a
@@ -38,16 +39,18 @@ const Home = () => {
         <div className="career-objective-section my-5 text-center">
             <h2 className="text-center">Career Objective</h2>
             <p>
-                I am looking for a full-time software development position starting May 2025, where I can apply my knowledge in software engineering, 
-                DevOps, and automation. I am open to opportunities across the country and internationally, and am willing to travel or relocate 
-                to work in a challenging and stimulating environment that encourages growth and learning.
+            I am seeking a full-time software development role starting in May 2025, where I can apply my experience in full-stack development, 
+            DevOps, and automation. Through hands-on projects—from building scalable web applications to developing automation tools—I’ve 
+            strengthened my problem-solving skills and ability to work across the tech stack. I’m looking to join a collaborative, 
+            forward-thinking team that values innovation, growth, and continuous learning. I’m fully open to travel or relocation 
+            for the right opportunity.
             </p>
         </div>
 
         <div className="education-section my-5 text-center">
             <h2 className="text-center">Education</h2>
             <p><strong>The University of Akron</strong> | Akron, OH</p>
-            <p>Bachelor of Computer Science | GPA: 3.5/4.0 | Expected Graduation: May 2025</p>        
+            <p>Bachelor of Computer Science | GPA: 3.39/4.0</p>        
         </div>
 
         <div className="skills-section my-5 text-center">

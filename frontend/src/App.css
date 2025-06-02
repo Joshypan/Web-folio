@@ -1,7 +1,16 @@
 /* Override Bootstrap primary color */
-.btn-primary {
-  background-color: #6B8E23; /* Olive green */
-  border-color: #556B2F;
+.btn {
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
 .bg-dark {
@@ -34,4 +43,27 @@ footer {
   background-color: #2F4F4F;
   color: #F5F5DC;
   padding: 10px;
+}
+
+nav .btn-link {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+
+nav .btn-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #F5F5DC; /* Match your text color */
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+  transform-origin: left;
+}
+
+nav .btn-link:hover::after {
+  transform: scaleX(1);
 }

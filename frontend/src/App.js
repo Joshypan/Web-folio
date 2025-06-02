@@ -37,7 +37,7 @@ function App() {
                 </Routes>
                 </main>
                 <footer className="text-center py-4 bg-dark text-white mt-5">
-                    <p>&copy; 2024 Joshua Panchana Cedeño</p>
+                    <p>&copy; 2025 Joshua Panchana Cedeño</p>
                 </footer>
             </div>
         </Router>
