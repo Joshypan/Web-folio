@@ -1,0 +1,39 @@
+.skills-tab {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+}
+
+.skills-tab h2 {
+  font-size: 2rem;
+  color: #343a40;
+}
+
+.skills-tab ul {
+  padding-left: 0;
+}
+
+.skills-tab li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #dee2e6;
+  color: #495057;
+}
+
+.skills-tab li:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 768px) {
+  .skills-tab {
+    padding: 1.5rem;
+  }
+
+  .skills-tab h2 {
+    font-size: 1.75rem;
+  }
+
+  .skills-tab li {
+    font-size: 0.95rem;
+  }
+}
