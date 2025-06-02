@@ -228,3 +228,17 @@ scroll-behavior: smooth;
     padding: 1rem;
 }
 }
+
+.github-feed ul {
+    padding-left: 0;
+  }
+  
+  .github-feed li h5 a {
+    text-decoration: none;
+    color: #0d6efd;
+  }
+  
+  .github-feed li h5 a:hover {
+    text-decoration: underline;
+  }
+  

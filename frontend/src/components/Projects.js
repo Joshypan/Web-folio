@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 import '../styles/Projects.css'
+import GitHubFeed from './GitHubFeed';
 
 const Projects = () => {
   const projects = [
@@ -14,15 +15,6 @@ const Projects = () => {
       features:
         'Smooth scroll effects, hover animations, responsive design for mobile/tablet, and a structured project showcase section',
       link: 'https://jpcodes.framer.website/'
-    },
-    {
-      title: 'Personal Webfolio',
-      description:
-        'A professional portfolio website built with React, showcasing my development projects, skills, and experience.',
-      tech: 'React, Bootstrap, HTML, CSS, JavaScript',
-      features:
-        'Multi-page navigation, responsive design, and integration with EmailJS for contact forms.',
-      link: 'https://github.com/Joshypan/Web-folio'
     },
     {
       title: 'Form Creation Engine (FCE)',
@@ -63,6 +55,11 @@ const Projects = () => {
           </div>
         </div>
       ))}
+      <section className="github-section text-center my-5">
+        <h2 className="fw-bold">Latest GitHub Activity</h2>
+        <p className="text-muted">Here are my 5 most recently updated public repos</p>
+        <GitHubFeed username="Joshypan" />
+      </section>
     </div>
   );
 };
