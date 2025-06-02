@@ -18,10 +18,6 @@
   color: gray;
 }
 
-.cta-buttons .btn {
-  margin-top: 1rem;
-}
-
 .skills-section ul {
   list-style-type: none;
   padding: 0;
@@ -39,4 +35,36 @@
   width: 150px;
   margin: 0.5rem;
   border-radius: 10px;
+}
+
+.cta-buttons .btn {
+  transition: all 0.3s ease;
+}
+
+.cta-buttons .btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.photo-booth-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.photo-booth-gallery img {
+  width: 140px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.photo-booth-gallery img:hover {
+  transform: scale(1.05);
+}
+
+body {
+  font-family: 'Inter', sans-serif;
 }
