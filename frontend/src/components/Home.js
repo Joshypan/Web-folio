@@ -35,6 +35,7 @@ const Home = () => {
           </a>
           <Link to="/projects" className="btn btn-outline-secondary px-4">Explore Projects</Link>
           <Link to="/contact" className="btn btn-outline-dark px-4">Contact Me</Link>
+
         </div>
       </section>
 

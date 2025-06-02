@@ -6,6 +6,22 @@ const Projects = () => {
             <h2 className="text-center">Projects</h2>
 
             <div className="project-item my-4">
+                <h3>Personal Webfolio (Framer)</h3>
+                <p>
+                    A visually engaging and fully responsive portfolio website built using Framer's no-code design platform to showcase my background, skills, and personal projects. 
+                    This project emphasized modern web design principles and user experience, with a focus on clean layout, intuitive navigation, and interactive elements.
+                </p>
+                <ul>
+                    <li><strong>Technologies:</strong> Framer (no-code), CMS tools, responsive layout design</li>
+                    <li><strong>Skills Gained:</strong> UI/UX design, layout hierarchy, typography, component-based structure, visual storytelling, and animation timing</li>
+                    <li><strong>Features:</strong> Smooth scroll effects, hover animations, responsive design for mobile/tablet, and a structured project showcase section</li>
+                </ul>
+                <div className="project-links">
+                    <a href="https://jpcodes.framer.website/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">Live Site</a>
+                </div>
+            </div>
+
+            <div className="project-item my-4">
                 <h3>Personal Webfolio</h3>
                 <p>
                     A professional portfolio website built with React and a Flask backend, showcasing my development projects, skills, and experience.
