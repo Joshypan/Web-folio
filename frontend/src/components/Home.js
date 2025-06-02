@@ -53,12 +53,6 @@ const Home = () => {
             <p>Bachelor of Computer Science | GPA: 3.39/4.0</p>        
         </div>
 
-        <div className="skills-section my-5 text-center">
-            <h2>Technical Expertise</h2>
-            <p>Proficient in Python, C++, and JavaScript, with hands-on experience in web development, cloud platforms, and customer support.</p>
-            <Link to="/skills" className="btn btn-secondary mt-2">Explore Full Skill Set</Link>
-        </div>
-
         <div className="experience-summary my-4 text-center">
             <h2>Professional Summary</h2>
             <p>
