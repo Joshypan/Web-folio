@@ -1,28 +1,39 @@
 import React from 'react';
+import '../App.css';
+import '../styles/About.css';
 
 const About = () => {
-    return (
-        <div className="my-5">
-            <h2>About Me</h2>
-            <p> 
-                Hello! I am Joshua Panchana Cedeño, a Computer Science student at the University of Akron. In addition to pursuing my Bachelor's degree, I am also pursuing two minor
-                in Applied Mathematics and one in Spanish. My current cumulative GPA is a 3.4. <br/><br/>
+  return (
+    <div className="about-page container py-5">
+      <section className="text-center mb-5">
+        <h2 className="fw-bold">About Me</h2>
+        <p className="fs-5 mx-auto" style={{ maxWidth: '800px' }}>
+          Hello! I'm <strong>Joshua Panchana Cedeño</strong>, a Computer Science graduate from the University of Akron, where I also minored in Applied Mathematics and Spanish (GPA: 3.4).
+          Throughout my college career, I took pride in not only my academics but also my involvement on campus and in leadership roles.
+        </p>
+      </section>
 
-                At the University of Akron, I am heavily involved on campus. During my second year in college, I was the President 
-                of UA Latinos and a general member of Society of Hispanic Professional Engineers (SHPE). UA Latinos is an organization that aimed to connect and support the Latino and Hispanic population on campus. As President, I strived to grow the number of 
-                members in the organization and make the club standout, to let others aware of our presence! After two successful years, I am proud to say that the membership
-                count has tripled from 10 to 30. In addition it has been awarded a Life Award for Diversity in 2023. Afterwards, in my fourth year (Fall 2023 - Spring 2024), I was appointed as Vice President
-                of the SHPE. SHPE is an organization that aids its' members in their professional development. We collaborate with other engineering societies on campus and collaborate
-                with local companies such as Goodyear, Marathon, Nestle, and Lubrizol (to name a few). During the spring semester, I became a member of the Akronauts, the rocket design
-                team on campus. I would help with the development on their graphic user interface for the test stands' components.
+      <section className="text-center mb-5">
+        <h3 className="fw-bold">Leadership & Impact</h3>
+        <p className="fs-6 mx-auto" style={{ maxWidth: '800px' }}>
+          As <strong>President of UA Latinos</strong>, I tripled our membership and organized impactful cultural events, earning us a LIFE Award for Diversity in 2023.
+          Later, as <strong>Vice President of SHPE</strong>, I helped drive collaboration with companies like Goodyear and Nestle while supporting underrepresented students in STEM.
+          I also joined the <strong>Akronauts</strong> Rocket Design Team, contributing to GUI development for testing systems.
+        </p>
+      </section>
 
-                Outside of education and my professional work, I tend to practice what I learn into my own project to apply what I have learned and to review. This site
-                is a result of that.<br/><br/>
+      <section className="text-center mb-5">
+        <h3 className="fw-bold">What Drives Me</h3>
+        <p className="fs-6 mx-auto" style={{ maxWidth: '800px' }}>
+          I love applying what I learn through personal projects that blend creativity and code. This website is one of those—built from the ground up to showcase my journey, passions, and potential.
+        </p>
+      </section>
 
-                Thank you for visiting!
-            </p>
-        </div>
-    );
+      <section className="text-center">
+        <p className="text-muted">Thank you for visiting my site!</p>
+      </section>
+    </div>
+  );
 };
 
 export default About;

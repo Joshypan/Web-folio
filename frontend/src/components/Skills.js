@@ -1,20 +1,50 @@
 import React from 'react';
+import '../styles/Skills.css'
 
 const Skills = () => {
-    return (
-        <div className="skills-tab my-5">
-            <h2>Full Skills Summary</h2>
-            <ul>
-                <li><strong>Programming Languages:</strong> Python, C++, JavaScript, HTML, CSS, SQL</li>
-                <li><strong>Frameworks & Libraries:</strong> React.js, Node.js</li>
-                <li><strong>DevOps & Cloud Platforms:</strong> AWS (Event Bus), Azure DevOps, Nintex Cloud Automation</li>
-                <li><strong>Tools & Software:</strong> Git, GitHub, Visual Studio Code, SharePoint, Microsoft Office Suite</li>
-                <li><strong>Languages:</strong> Fluent in Spanish</li>
-                <li><strong>Leadership & Communication:</strong> Project management, community outreach, cross-functional team collaboration</li>
-                <li><strong>Customer Service & Support:</strong> Apple technical support expertise, troubleshooting, customer relations</li>
-            </ul>
-        </div>
-    );
+  const skills = [
+    {
+      title: 'Programming Languages',
+      details: 'Python, C++, JavaScript, HTML, CSS, SQL'
+    },
+    {
+      title: 'Frameworks & Libraries',
+      details: 'React.js, Node.js'
+    },
+    {
+      title: 'DevOps & Cloud Platforms',
+      details: 'AWS (Event Bus), Azure DevOps, Nintex Cloud Automation'
+    },
+    {
+      title: 'Tools & Software',
+      details: 'Git, GitHub, Visual Studio Code, SharePoint, Microsoft Office Suite'
+    },
+    {
+      title: 'Languages',
+      details: 'Fluent in Spanish'
+    },
+    {
+      title: 'Leadership & Communication',
+      details: 'Project management, community outreach, cross-functional team collaboration'
+    },
+    {
+      title: 'Customer Service & Support',
+      details: 'Apple technical support expertise, troubleshooting, customer relations'
+    }
+  ];
+
+  return (
+    <div className="skills-tab container my-5">
+      <h2 className="text-center fw-bold mb-4">Full Skills Summary</h2>
+      <ul className="list-unstyled">
+        {skills.map((skill, idx) => (
+          <li key={idx} className="skill-item mb-3">
+            <strong>{skill.title}:</strong> {skill.details}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
 };
 
 export default Skills;
